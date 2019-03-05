@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Third Application</string>
+    <string name="Main_UserName">UserName</string>
+    <string name="Main_Pass">Password</string>
+    <string name="Main_Login">Login</string>
+    <string name="Next">Next</string>
+    <string name="outside">This is outside Layout</string>
+    <string name="flipper_HelloWord">Flipper Hello Word</string>
+    <string name="flipper_btnHello">Button Hello</string>
+    <string name="flipper_Demo">flipper_demmo</string>
+    <string name="Previous">Previous</string>
+</resources>
