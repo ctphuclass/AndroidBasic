@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dell.thirdapplication">
 
-   <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SimpleListViewActivity">
+        <!--<activity android:name=".ContactActivity"></activity>-->
+        <activity android:name=".ContactActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +22,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".ViewFlipperActivity" />
-        <!--<activity android:name=".SimpleListViewActivity"></activity>-->
     </application>
 
 </manifest>
