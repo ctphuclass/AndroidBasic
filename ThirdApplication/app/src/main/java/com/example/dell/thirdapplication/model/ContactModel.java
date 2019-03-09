@@ -1,6 +1,8 @@
 package com.example.dell.thirdapplication.model;
 
-public class ContactModel {
+import java.io.Serializable;
+
+public class ContactModel implements Serializable {
     public ContactModel(String mName, String mPhone, String mAddress){
         this.Name = mName;
         this.PhoneNumber = mPhone;
