@@ -10,4 +10,10 @@
     <string name="flipper_Demo">flipper_demmo</string>
     <string name="Previous">Previous</string>
     <string name="contact_Name">Name here!</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="Address">Address</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Adding">Add item</string>
+    <string name="Refesh">Refesh</string>
 </resources>
