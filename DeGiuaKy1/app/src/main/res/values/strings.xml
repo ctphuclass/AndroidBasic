@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DeGiuaKy1</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="TenMonHoc">Ten Mon Hoc : </string>
+    <string name="MaMonHoc">Ma Mon Hoc :</string>
+    <string name="TinChi">So tin Chi :</string>
+    <string name="ChiTietMonHoc">Chi Tiet Mon Hoc</string>
+    <string name="HovaTenn">Ho va Ten</string>
+    <string name="masv">MA SV</string>
+    <string name="DanhSachMonHoc">Danh Sach Mon Hoc</string>
+</resources>
