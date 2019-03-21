@@ -10,4 +10,6 @@
     <string name="HovaTenn">Ho va Ten</string>
     <string name="masv">MA SV</string>
     <string name="DanhSachMonHoc">Danh Sach Mon Hoc</string>
+    <string name="update">Update</string>
+    <string name="back">Back</string>
 </resources>

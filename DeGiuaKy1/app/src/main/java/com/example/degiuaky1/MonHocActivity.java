@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -17,7 +18,8 @@ import java.util.List;
 
 public class MonHocActivity extends AppCompatActivity {
     ListView listView;
-    List<model> modelList;
+    static  List<model> modelList;
+    static MonHocAdapter adapter;
     TextView textViewContent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +27,7 @@ public class MonHocActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mon_hoc);
         onInit();
         ontSetValue();
-        MonHocAdapter adapter = new MonHocAdapter(MonHocActivity.this,R.layout.monhoc_item,modelList);
+         adapter = new MonHocAdapter(MonHocActivity.this,R.layout.monhoc_item,modelList);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -70,7 +72,7 @@ public class MonHocActivity extends AppCompatActivity {
         }
 
         @Override
-        public View getView(int position,View convertView, ViewGroup parent) {
+        public View getView(final int position, View convertView, ViewGroup parent) {
             ViewHolder viewHolder = null;
             if (viewHolder == null){
                 convertView = LayoutInflater.from(mContext).inflate(mResource,parent,false);
@@ -78,15 +80,34 @@ public class MonHocActivity extends AppCompatActivity {
                 viewHolder.textViewMonHoc = convertView.findViewById(R.id.mh_tv_TenMonHoc);
                 viewHolder.textViewMaMonHoc = convertView.findViewById(R.id.mh_tv_MaMonHoc);
                 viewHolder.textViewTinChi = convertView.findViewById(R.id.mh_tv_TinChi);
+                viewHolder.ivDelete = convertView.findViewById(R.id.item_iv_delete);
+                viewHolder.ivUpdate = convertView.findViewById(R.id.item_iv_update);
             }
             else{
                 viewHolder = (ViewHolder)convertView.getTag();
             }
-            model item = list.get(position);
+            final model item = list.get(position);
           //  model item1 = getItem(position);
             viewHolder.textViewMaMonHoc.setText(String.valueOf(item.getMaMonHoc()));
             viewHolder.textViewMonHoc.setText(String.valueOf(item.getTenMonHoc()));
             viewHolder.textViewTinChi.setText(String.valueOf(item.getTinChi()));
+            viewHolder.ivDelete.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    remove(item);
+                    notifyDataSetChanged();
+                }
+            });
+            viewHolder.ivUpdate.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MonHocActivity.this,UpdateChiTietActivity.class);
+                    intent.putExtra("UPDATEITEM",item);
+                    intent.putExtra("POS",position);
+                    startActivity(intent);
+                }
+            });
+
             return convertView;
         }
 
@@ -94,6 +115,8 @@ public class MonHocActivity extends AppCompatActivity {
             TextView textViewMonHoc;
             TextView textViewMaMonHoc;
             TextView textViewTinChi;
+            ImageView ivUpdate;
+            ImageView ivDelete;
         }
     }
 }

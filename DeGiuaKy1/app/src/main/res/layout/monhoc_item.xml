@@ -58,5 +58,25 @@
                 android:id="@+id/mh_tv_TinChi"/>
         </LinearLayout>
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_update_black_24dp"
+            android:id="@+id/item_iv_update"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_delete_forever_black_24dp"
+            android:id="@+id/item_iv_delete"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
 </LinearLayout>
