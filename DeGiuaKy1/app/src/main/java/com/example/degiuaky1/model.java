@@ -3,6 +3,9 @@ package com.example.degiuaky1;
 import java.io.Serializable;
 
 public class model implements Serializable {
+    public model(){
+
+    }
     public model(String mTenMonHoc, String mMaMonHoc, String mTinChi,String mTen, String mMssv){
         this.TenMonHoc = mTenMonHoc;
         this.MaMonHoc = mMaMonHoc;
