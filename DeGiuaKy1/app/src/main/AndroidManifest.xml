@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpdateChiTietActivity"></activity>
+        <!--<activity android:name=".DemoTabControlActivity"></activity>-->
+        <activity android:name=".UpdateChiTietActivity" />
         <activity android:name=".ChiTietActivity" />
         <activity android:name=".MonHocActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".DemoTabControlActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
