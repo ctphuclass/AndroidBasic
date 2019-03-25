@@ -13,7 +13,7 @@
 *Mỗi dòng item cần hiển thị Tên hàng, đơn vị tính, khối lượng mua, giá tiền, miêu tả
 *Khi người dùng kết thúc việc đi chợ, hiển thị số tiền còn thừa hoặc nợ so với số tiền nhập vào ban đầu
 *Đăng xuất xóa hết các phiên đăng nhập , lần đăng nhập tiếp theo phải đăng nhập lại
-DSSV:
++ DSSV:
 Đỗ Phạm Gia Bảo
 Nguyễn Hoàng Bửu
 Nguyễn Chí Cường,
