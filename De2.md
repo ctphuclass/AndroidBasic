@@ -17,7 +17,6 @@
 Nguyễn Văn Công,
 Ngô Quốc Duy,
 Đặng Trung Đức,
-Lưu Anh Kiệt,
 Nguyễn Thanh Tú,
 Hồ Anh Tuấn,
 Nguyễn Thiết Tuấn
