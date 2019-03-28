@@ -14,10 +14,11 @@
 *Khi người dùng kết thúc việc đi chợ, hiển thị số tiền còn thừa hoặc nợ so với số tiền nhập vào ban đầu
 *Đăng xuất xóa hết các phiên đăng nhập , lần đăng nhập tiếp theo phải đăng nhập lại
 + DSSV:
-Đỗ Phạm Gia Bảo
-Nguyễn Hoàng Bửu
+Đỗ Phạm Gia Bảo,
+Nguyễn Hoàng Bửu,
 Nguyễn Chí Cường,
 Lê Tấn Phương,
 Lê Hồng Sơn,
 Nguyễn Thành Tâm,
-Nguyễn Quốc Toàn
+Nguyễn Quốc Toàn,
+Nguyen Tran Nhat Minh
