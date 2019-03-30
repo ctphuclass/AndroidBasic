@@ -78,5 +78,11 @@
             android:src="@drawable/ic_delete_forever_black_24dp"
             android:id="@+id/item_iv_delete"
             android:layout_gravity="center_horizontal"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/item_ckb_check"/>
     </LinearLayout>
 </LinearLayout>

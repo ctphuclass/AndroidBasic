@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--<activity android:name=".DemoTabControlActivity"></activity>-->
+        <activity android:name=".StudentActivity"></activity>
+        <activity android:name=".CreateItemActivity" /> <!-- <activity android:name=".DemoTabControlActivity"></activity> -->
         <activity android:name=".UpdateChiTietActivity" />
         <activity android:name=".ChiTietActivity" />
         <activity android:name=".MonHocActivity" />

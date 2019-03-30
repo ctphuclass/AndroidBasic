@@ -17,4 +17,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_MH_fragment">this is mon hoc fragment</string>
     <string name="hello_DT_fragment">This is dien thoai fragment</string>
+    <string name="add">add new item</string>
+    <string name="Create">Create</string>
 </resources>

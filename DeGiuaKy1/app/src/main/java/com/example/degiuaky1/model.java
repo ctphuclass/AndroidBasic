@@ -12,13 +12,33 @@ public class model implements Serializable {
         this.TinChi = mTinChi;
         this.Ten = mTen;
         this.Mssv = mMssv;
+        this.Status = 0;
     }
 
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
+    }
+
+    private int Id;
     private String TenMonHoc;
     private String MaMonHoc;
     private String TinChi;
     private String Ten;
     private String Mssv;
+
+    public int getStatus() {
+        return Status;
+    }
+
+    public void setStatus(int status) {
+        Status = status;
+    }
+
+    private int Status;
 
     public String getTenMonHoc() {
         return TenMonHoc;
@@ -59,6 +79,5 @@ public class model implements Serializable {
     public void setMssv(String mssv) {
         Mssv = mssv;
     }
-
 
 }
