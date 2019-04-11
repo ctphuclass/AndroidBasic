@@ -2,6 +2,9 @@ package com.example.fourthapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.example.fourthapplication.Database.MySQLite;
@@ -12,8 +15,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     ListView listView;
+    RecyclerView recyclerView;
     public static UserAdapter adapter;
+    public static UserRecylerAdapter recylerAdapter;
     public static List<UserModel> modelList;
+    public static DemoRecyclerViewAdapter demoRecyclerViewAdapter;
     MySQLite sqLite;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +29,11 @@ public class MainActivity extends AppCompatActivity {
         sqLite.OpenDB();
         onInit();
         onSetValue();
-        getSupportFragmentManager();
-        adapter = new UserAdapter(MainActivity.this,R.layout.demo_item,modelList,sqLite);
-        listView.setAdapter(adapter);
+
+        demoRecyclerViewAdapter = new DemoRecyclerViewAdapter(this,R.layout.demo_item,modelList);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
+        recyclerView.setAdapter(demoRecyclerViewAdapter);
     }
 
     private void onSetValue() {
@@ -34,14 +42,9 @@ public class MainActivity extends AppCompatActivity {
             long i = sqLite.addUser(new UserModel("Thanh Dat",21,"TP.HCM"));
         }
         modelList = sqLite.getAllUser();
-//        modelList = new ArrayList<>();
-//        modelList.add(new UserModel("Thanh Dat",21,"TP.HCM"));
-//        modelList.add(new UserModel("Tommy",25,"Can Tho"));
-//        modelList.add(new UserModel("Kelvin",27,"Ha Noi"));
-//        modelList.add(new UserModel("Lee",31,"Hai Phong"));
     }
 
     private void onInit() {
-        listView = findViewById(R.id.demo_lv);
+        recyclerView = findViewById(R.id.demo_recylerView);
     }
 }
