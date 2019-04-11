@@ -1,0 +1,17 @@
+Load Image From Url
+    public Bitmap getbmpfromURL(String surl){
+        try {
+            URL url = new URL(surl);
+            HttpURLConnection urlcon = (HttpURLConnection) url.openConnection();
+            urlcon.setDoInput(true);
+            urlcon.connect();
+            InputStream in = urlcon.getInputStream();
+            Bitmap mIcon = BitmapFactory.decodeStream(in);
+            return  mIcon;
+        } catch (Exception e) {
+            String i = e.getMessage();
+            Log.e("Error", e.getMessage());
+            e.printStackTrace();
+            return null;
+        }
+    }
