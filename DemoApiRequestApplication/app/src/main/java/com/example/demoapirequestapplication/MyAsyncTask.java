@@ -24,11 +24,18 @@ public class MyAsyncTask extends AsyncTask<String,Void, Bitmap> {
     @Override
     protected Bitmap doInBackground(String... strings) {
         try {
+            // set up connection//
             URL url = new URL(strings[0]);
             HttpURLConnection connection = (HttpURLConnection)url.openConnection();
             connection.setRequestProperty("Content-Type","application/json");
             connection.setRequestMethod("GET");
+            // add request body params (if requested)//
+
+            //
+            // open connection//
             connection.connect();
+            //
+            //read response as string //
             InputStream inputStream = connection.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             StringBuffer stringBuffer = new StringBuffer();
@@ -37,6 +44,9 @@ public class MyAsyncTask extends AsyncTask<String,Void, Bitmap> {
                 stringBuffer.append(result);
             }
             result = stringBuffer.toString();
+            //
+
+            //convert response string to json obect//
             JSONObject parentObject = new JSONObject(result);
             int resultID = parentObject.getInt("result");
             if (resultID > 0){
