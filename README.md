@@ -11,3 +11,4 @@ Videos
 - Project: https://youtu.be/_WWwuNEsESY https://youtu.be/c882U0Ay3O0 https://youtu.be/oLxELZ2t6T0
 - Call GET API: https://youtu.be/C3n4BBhMXY8
 - Call POST API: https://youtu.be/vxo4UBJdG_4
+- Call View POST API: https://youtu.be/dDo9c5x2JpI
