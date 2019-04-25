@@ -5,6 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.example.demoapirequestapplication.IHolder.IView;
+
+import org.json.JSONArray;
+
 public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     @Override
@@ -16,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onRequestSuccess(Bitmap bitmap) {
                 imageView.setImageBitmap(bitmap);
+            }
+
+            @Override
+            public void onGetDataSuccess(JSONArray jsonArray) {
+
             }
         }).execute("http://www.vidophp.tk/api/imageservice/getrandomimage");
     }

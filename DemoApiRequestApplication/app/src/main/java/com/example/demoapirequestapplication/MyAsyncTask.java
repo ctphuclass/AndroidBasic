@@ -5,6 +5,8 @@ import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.util.Log;
 
+import com.example.demoapirequestapplication.IHolder.IView;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 

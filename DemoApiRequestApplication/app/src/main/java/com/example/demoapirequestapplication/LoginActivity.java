@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.demoapirequestapplication.IHolder.ILoginView;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -33,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void onLoginSuccess(String m) {
                             Toast.makeText(LoginActivity.this,m,Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                            Intent intent = new Intent(LoginActivity.this,StudentActivity.class);
                             startActivity(intent);
                         }
 

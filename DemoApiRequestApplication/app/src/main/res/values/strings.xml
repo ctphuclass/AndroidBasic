@@ -3,4 +3,9 @@
     <string name="username">User Name :</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="code">MSSV</string>
+    <string name="name">Ten</string>
+    <string name="age">Tuoi</string>
+    <string name="sClass">Lop</string>
+    <string name="email">Email</string>
 </resources>
