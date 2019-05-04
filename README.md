@@ -14,3 +14,4 @@ Videos
 - Call View POST API: https://youtu.be/dDo9c5x2JpI
 - semi-fianl api description: https://docs.google.com/document/d/14wPFQvJ9KWQsa8OaA0hufDme8jxdvT-vls8Y5EMMcoI/edit?usp=sharing
 - Google Sign In: https://youtu.be/TEo1hvi8WQw
+- Using FireBase: https://youtu.be/LLRP7y0Paf4
