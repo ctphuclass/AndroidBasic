@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleForumChatApplication</string>
+    <string name="input_placeholder">Write a message</string>
+</resources>

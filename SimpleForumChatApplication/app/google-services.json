@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "400121687859",
+    "firebase_url": "https://simplechatforumapplication.firebaseio.com",
+    "project_id": "simplechatforumapplication",
+    "storage_bucket": "simplechatforumapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400121687859:android:f09d3d60c07b9989",
+        "android_client_info": {
+          "package_name": "com.example.simpleforumchatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400121687859-na3nsp56fg3p9gv7vivmo3cv47qnvqm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simpleforumchatapplication",
+            "certificate_hash": "ed9f1bbeaaf400a66d84f582c3d4f924e7d4cd70"
+          }
+        },
+        {
+          "client_id": "400121687859-c2dkv7ikb52fd17tpri4pcv58p62bi76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyrdsxZIsyVyoJ5_dlqWNxFY1Wi7HnYDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400121687859-c2dkv7ikb52fd17tpri4pcv58p62bi76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
