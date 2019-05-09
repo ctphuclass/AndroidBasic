@@ -24,3 +24,13 @@ Videos
                 .build();
         FirebaseApp.initializeApp(this /* Context */, options);
 - Chat: https://youtu.be/uKMtyrWyZhI
+
+-Đề tài cuối kì:
+  - Hình thức : thực hiện ứng dụng tại nhà
+  - Nội dung :Ứng dụng sử dụng đăng nhập bằng tài khoản Google và tạo cơ sở dữ liệu FireBase. Sau khi đăng nhập thành công, gọi đến Api để nhận được dữ liệu trong chính FireBase của mình(khi gọi api sẽ có những tham số yêu cầu thông tin FireBase của người dùng). Sau khi FireBase nhận được dữ liệu, load thông tin dữ liệu lên, thêm sữa xóa dữ liệu và lưu trên FireBase
+  - Yêu cầu:
+    + Tạo được cơ sở dữ liệu FireBase
+    + Sử dụng được Google+ API để đăng nhập
+    + Gọi Api để đưa dữ liệu lên FireBase của cá nhân
+    + Load được dữ liệu từ FireBase lên list dữ liệu(List sữ dụng RecyclerView)
+    +Thao tác thêm sữa xóa và lưu lại trên FireBase
