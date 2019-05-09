@@ -23,3 +23,4 @@ Videos
                 .setDatabaseUrl("https://simplechatforumapplication.firebaseio.com/")
                 .build();
         FirebaseApp.initializeApp(this /* Context */, options);
+- Chat: https://youtu.be/uKMtyrWyZhI
