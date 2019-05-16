@@ -1,0 +1,8 @@
+url: http://vidoandroid.vidophp.tk/api/FireBase/PushData
+method: POST
+content-type: application/json
+params:
+{
+	"google_id":(string),
+	"firebase_url":(string)
+}
