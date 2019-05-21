@@ -36,3 +36,4 @@ Videos
     + Thao tác thêm sữa xóa và lưu lại trên FireBase
     + Tạo nút sync lại dữ liệu
     + Khi sync dữ liệu ban đầu quá lâu, cần có 1 dialog thể hiện ứng dụng đang thực thi quá trình
+* ReferenceRoot name: AdvancedAndroidFinalTest
