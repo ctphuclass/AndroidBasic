@@ -34,3 +34,4 @@ Videos
     + Gọi Api để đưa dữ liệu lên FireBase của cá nhân
     + Load được dữ liệu từ FireBase lên list dữ liệu(List sữ dụng RecyclerView)
     +Thao tác thêm sữa xóa và lưu lại trên FireBase
+    + Tạo nút sync lại dữ liệu
