@@ -33,5 +33,6 @@ Videos
     + Sử dụng được Google+ API để đăng nhập
     + Gọi Api để đưa dữ liệu lên FireBase của cá nhân
     + Load được dữ liệu từ FireBase lên list dữ liệu(List sữ dụng RecyclerView)
-    +Thao tác thêm sữa xóa và lưu lại trên FireBase
+    + Thao tác thêm sữa xóa và lưu lại trên FireBase
     + Tạo nút sync lại dữ liệu
+    + Khi sync dữ liệu ban đầu quá lâu, cần có 1 dialog thể hiện ứng dụng đang thực thi quá trình
