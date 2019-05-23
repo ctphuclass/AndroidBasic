@@ -6,3 +6,5 @@ params:
 	"google_id":(string),
 	"firebase_url":(string)
 }
+* Domain cũ tạm thời bị gián đoạn, các bạn vào domain mới này để goi api:
+http://103.10.44.30/api/FireBase/PushData
