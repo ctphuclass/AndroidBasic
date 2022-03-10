@@ -6,7 +6,7 @@ Videos
 - Change Activity: https://youtu.be/hlg_fZYjiDE
 - Add New Item to Custom List View: https://youtu.be/ASN2WN-jCMg
 - Edit, Delete Item in Custom List View: https://youtu.be/ZSytGXDVxxI
-- Create Fragment: https://youtu.be/J3RHy4Qk7vY
+- Create Fragment: https://youtu.be/J3RHy4Qk7vY - https://www.youtube.com/watch?v=Btli00YA1eI
 - Add Custom List View to Fragment: https://youtu.be/-MSxb95P1og
 - SQL Lite: https://youtu.be/H-1dOnjnleI
 - Project: https://youtu.be/_WWwuNEsESY https://youtu.be/c882U0Ay3O0 https://youtu.be/oLxELZ2t6T0
